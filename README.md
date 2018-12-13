@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 # jobPortal
 =======
-# jobPortal
->>>>>>> README.md added
+Dynamic Web Project + Maven + Java8
+-------
+-mySQLConnector
+-Javax Servlet
+

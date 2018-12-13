@@ -3,11 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Succesfully inserted job</h1>
+	<h1>Succesfully deleted job</h1>
 
 </body>
 </html>

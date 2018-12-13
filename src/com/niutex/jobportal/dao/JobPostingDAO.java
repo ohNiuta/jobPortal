@@ -48,7 +48,7 @@ public class JobPostingDAO {
 		 
 		try {
 			statement = conn.createStatement();
-			resultSet = statement.executeQuery("select * from JobPostings where id = " + id);
+			resultSet = statement.executeQuery("select * from jobPostings where id = " + id);
 		
 			if(resultSet.next()) {
 				JobPosting jobPostingToReturn = new JobPosting();
@@ -139,6 +139,7 @@ public class JobPostingDAO {
 			
 			statement.close();
 			resultSet.close();
+			
 			return allJobs;
 			
 		} catch (SQLException e) {

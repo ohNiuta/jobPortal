@@ -8,6 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h1>Insert Job information</h1>
+	<br />
+	<br />
 	
 	Message Body: 
 	<br />
